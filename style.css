@@ -26,4 +26,12 @@ body {
     var(--gradient-blue)
   );
   min-height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1.2rem;
 }
