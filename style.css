@@ -6,4 +6,18 @@
   --gradient-violet: hsl(273, 75%, 66%);
   --gradient-blue: hsl(240, 73%, 65%);
   --divider-gray-blue: hsl(240, 5%, 91%);
+  --ff-primary: "Kumbh Sans", sans serif;
+  --fs-primary: 0.86rem; /* 12px */
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-primary);
 }
