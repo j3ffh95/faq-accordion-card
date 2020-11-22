@@ -20,4 +20,10 @@ html,
 body {
   font-family: var(--ff-primary);
   font-size: var(--fs-primary);
+  background: linear-gradient(
+    to bottom,
+    var(--gradient-violet),
+    var(--gradient-blue)
+  );
+  min-height: 100%;
 }
