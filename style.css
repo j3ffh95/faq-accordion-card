@@ -28,6 +28,7 @@ body {
   min-height: 100vh;
   /* display: grid;
   place-items: center; */
+  transition: all 0.4s ease;
 }
 
 img {
@@ -49,6 +50,7 @@ img {
   border-radius: 1.2rem;
   position: relative;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .card::before {
@@ -60,6 +62,7 @@ img {
   height: 100%;
   background: url("./images/bg-pattern-mobile.svg") no-repeat;
   background-position: top center;
+  z-index: -1;
 }
 
 .image-container {
@@ -88,6 +91,11 @@ img {
 
 .panel {
   display: none;
+  padding: 1rem 0;
+}
+
+.active {
+  transform: rotate(180deg);
 }
 
 .accordion {
@@ -99,4 +107,5 @@ img {
   border: none;
   outline: none;
   transition: 0.4s;
+  cursor: pointer;
 }
