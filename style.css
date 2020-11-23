@@ -77,3 +77,8 @@ img {
   text-align: center;
   margin-bottom: 2rem;
 }
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
