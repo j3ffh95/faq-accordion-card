@@ -42,6 +42,7 @@ img {
   margin: auto;
   width: 100%;
   padding: 10rem 4rem;
+  transition: all 0.4s ease-in;
 }
 
 .card {
@@ -51,6 +52,7 @@ img {
   position: relative;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   z-index: 1;
+  transition: all 0.4s ease;
 }
 
 .card::before {
@@ -81,18 +83,22 @@ img {
 .text-content {
   display: flex;
   flex-direction: column;
+  transition: all 0.4s ease-in;
 }
 
 .text-box {
   margin: 0.5rem 0;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--divider-gray-blue);
+  transition: all 0.4s ease-in;
 }
 
 .panel {
   display: none;
+  overflow: hidden;
   padding: 1rem 0;
   animation: goUp 0.4s ease;
+  transition: all 0.4s ease-in;
 }
 
 @keyframes goUp {
@@ -107,6 +113,7 @@ img {
 
 .active {
   transform: rotate(180deg);
+  transition: all 0.2s ease-in;
 }
 
 .accordion {
@@ -117,6 +124,6 @@ img {
   background-color: transparent;
   border: none;
   outline: none;
-  transition: 0.4s;
+  transition: all 0.4s ease;
   cursor: pointer;
 }
