@@ -81,8 +81,6 @@ img {
 }
 
 .text-box {
-  display: flex;
-  justify-content: space-between;
   margin: 0.5rem 0;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--divider-gray-blue);
