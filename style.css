@@ -28,9 +28,6 @@ body {
   min-height: 100vh;
   /* display: grid;
   place-items: center; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 img {
@@ -40,10 +37,10 @@ img {
 }
 
 .container {
-  max-width: 65rem;
-  /* margin: 0 auto; */
+  max-width: 56rem;
+  margin: auto;
   width: 100%;
-  padding: 0 4rem;
+  padding: 10rem 4rem;
 }
 
 .card {
@@ -81,6 +78,13 @@ img {
 .text-content {
   display: flex;
   flex-direction: column;
+}
+
+.text-box {
+  display: flex;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--divider-gray-blue);
 }
 
 .panel {
