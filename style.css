@@ -43,7 +43,7 @@ img {
   max-width: 65rem;
   /* margin: 0 auto; */
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
 
 .card {
@@ -51,11 +51,29 @@ img {
   padding: 2rem;
   border-radius: 1.2rem;
   position: relative;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./images/bg-pattern-mobile.svg") no-repeat;
+  background-position: top center;
 }
 
 .image-container {
   position: absolute;
   top: -5%;
-  left: 50%;
+  left: 47%;
   transform: translate(-50%, -50%);
+}
+
+.card > h1 {
+  margin-top: 7rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
