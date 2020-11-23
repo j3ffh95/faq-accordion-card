@@ -83,11 +83,22 @@ img {
 .text-box {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--divider-gray-blue);
 }
 
 .panel {
   display: none;
+}
+
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: 0.4s;
 }
