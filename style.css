@@ -64,7 +64,7 @@ img {
 
 .image-container {
   position: absolute;
-  top: -5%;
+  top: -2%;
   left: 47%;
   transform: translate(-50%, -50%);
 }
@@ -82,6 +82,7 @@ img {
 
 .text-box {
   display: flex;
+  justify-content: space-between;
   margin: 1rem 0;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--divider-gray-blue);
