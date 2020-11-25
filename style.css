@@ -96,9 +96,10 @@ img {
 .panel {
   display: none;
   overflow: hidden;
-  padding: 1rem 0;
+  padding: 0 0.5rem;
   animation: goUp 0.4s ease;
   transition: all 0.4s ease-in;
+  line-height: 1.5;
 }
 
 @keyframes goUp {
@@ -116,6 +117,11 @@ img {
   transition: all 0.2s ease-in;
 }
 
+.text-active {
+  font-weight: bold;
+  font-size: 1em;
+}
+
 .accordion {
   display: flex;
   justify-content: space-between;
@@ -126,4 +132,8 @@ img {
   outline: none;
   transition: all 0.4s ease;
   cursor: pointer;
+}
+
+.accordion img {
+  height: 10px;
 }
