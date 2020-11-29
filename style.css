@@ -130,7 +130,7 @@ img {
 .accordion {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
   width: 100%;
   background-color: transparent;
   border: none;
@@ -149,7 +149,7 @@ img {
     /* flex-direction: row-reverse; */
     justify-content: flex-end;
     overflow: hidden;
-    padding: 10rem 5rem;
+    padding: 5rem;
     font-size: 1.125rem;
   }
 
@@ -177,5 +177,13 @@ img {
 
   .card-box {
     width: 50%;
+  }
+
+  .card-box > h1 {
+    margin: 1em 0;
+  }
+
+  .accordion {
+    font-size: 1em;
   }
 }
