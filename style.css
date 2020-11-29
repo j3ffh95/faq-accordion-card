@@ -47,7 +47,7 @@ img {
 
 .card {
   background-color: #fff;
-  padding: 2rem;
+  padding: 5rem 4rem;
   border-radius: 1.2rem;
   position: relative;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
@@ -184,6 +184,10 @@ img {
   }
 
   .accordion {
-    font-size: 1em;
+    font-size: 0.8rem;
+  }
+
+  .panel {
+    font-size: 0.8rem;
   }
 }
