@@ -144,6 +144,8 @@ img {
     display: flex;
     /* flex-direction: row-reverse; */
     justify-content: flex-end;
+    overflow: hidden;
+    padding: 10rem 5rem;
   }
 
   .card::before {
@@ -157,8 +159,12 @@ img {
   }
 
   .image-container {
+    display: none;
+  }
+
+  .image-desktop-container {
     position: absolute;
-    left: 0;
-    transform: none;
+    top: 100px;
+    left: -100px;
   }
 }
