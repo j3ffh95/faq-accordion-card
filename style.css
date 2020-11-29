@@ -175,6 +175,12 @@ img {
     left: -100px;
   }
 
+  .box-illustration {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   .card-box {
     width: 50%;
   }
